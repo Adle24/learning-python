@@ -1,3 +1,6 @@
+from fractions import Fraction
+
+
 floatedNumber = 34.3
 print(floatedNumber)
 
@@ -16,7 +19,6 @@ longFloat = 1.2324324235
 print(round(longFloat, 2))
 
 # using fractions for exact floats
-from fractions import Fraction
 
 print(Fraction(1, 3))
 print(Fraction(96))

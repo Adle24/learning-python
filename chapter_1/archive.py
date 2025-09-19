@@ -17,5 +17,5 @@ try:
     print("Found this copy:", old_site)
     print("It should appear on your browser now.")
     webbrowser.open(old_site)
-except:
-    print("Sorry, no luck finding", site)
+except Exception(BaseException) as e:
+    print("Sorry, no luck finding", site, e)
