@@ -19,12 +19,12 @@ print(from_hex_string[0])
 print(from_hex_string[3:])
 
 # appending bytes
-first_byte = bytes((1,2,3))
-second_byte = bytes((4,5,6))
+first_byte = bytes((1, 2, 3))
+second_byte = bytes((4, 5, 6))
 first_byte += second_byte
 print(first_byte)
 
 # repeating bytes
-example_byte = bytes((1,2,3))
+example_byte = bytes((1, 2, 3))
 example_byte *= 2
 print(example_byte)

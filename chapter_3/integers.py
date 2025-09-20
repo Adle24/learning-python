@@ -17,7 +17,7 @@ print(2 * 5)
 print(3 / 2)
 print(3 // 2)
 print(7 % 3)
-print(2 ** 10)
+print(2**10)
 
 # assignment
 myNum = 2

@@ -109,22 +109,22 @@ print(setup.center(30))
 # string formatting
 
 # old-style
-print('%s' % 42)
-print('%d' % 42)
-print('%x' % 42)
-print('%o' % 42)
+print("%s" % 42)
+print("%d" % 42)
+print("%x" % 42)
+print("%o" % 42)
 
-cat = 'Chester'
+cat = "Chester"
 weight = 28
-print('My cat %s weighs %s pounds' %  (cat, weight))
+print("My cat %s weighs %s pounds" % (cat, weight))
 
 # new-style
-thing = 'woodchunk'
-place = 'lake'
-print('The {} is in the {}.'.format(thing, place))
+thing = "woodchunk"
+place = "lake"
+print("The {} is in the {}.".format(thing, place))
 
 # f-strings
-name = 'Askar Adilet'
+name = "Askar Adilet"
 age = 28
-print(f'My name is {name}, and I am {age} years old.')
-print(f'{name=}, {age=}')
+print(f"My name is {name}, and I am {age} years old.")
+print(f"{name=}, {age=}")
