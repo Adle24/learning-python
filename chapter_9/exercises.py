@@ -28,11 +28,11 @@ life = {
 }
 
 print(f"Top level keys of life: {list(life.keys())}")
-print(f"Keys of life[animals]: {list(life["animals"].keys())}")
-print(f"Values of life[animals][cats]: {list(life["animals"]["cats"])}")
+print(f"Keys of life[animals]: {list(life['animals'].keys())}")
+print(f"Values of life[animals][cats]: {list(life['animals']['cats'])}")
 
 # exercise 3
-squares = {num: num ** 2 for num in range(10)}
+squares = {num: num**2 for num in range(10)}
 print(squares)
 
 # exercise 4
@@ -47,12 +47,16 @@ for number in my_gen_comprehension:
 
 # exercise 6
 key_tuple = ("optimist", "pessimist", "troll")
-value_tuple = ("'The glass is half full", "The glass is half empty", "How did you get a glass?")
+value_tuple = (
+    "'The glass is half full",
+    "The glass is half empty",
+    "How did you get a glass?",
+)
 
 print(dict(zip(key_tuple, value_tuple)))
 
 # exercise 7
-titles = ['Creature of Habit', 'Crewel Fate', 'Sharks On a Plane']
-plots = ['A nun turns into a monster', 'A haunted yarn shop', 'Check your exits']
+titles = ["Creature of Habit", "Crewel Fate", "Sharks On a Plane"]
+plots = ["A nun turns into a monster", "A haunted yarn shop", "Check your exits"]
 
 print(dict(zip(titles, plots)))
