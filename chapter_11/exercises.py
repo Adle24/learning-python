@@ -104,6 +104,7 @@ class Smartphone:
     def does(self):
         print("Ring")
 
+
 class Robot:
     def __init__(self, laser, claw, smartphone):
         self.laser = laser
@@ -114,6 +115,7 @@ class Robot:
         self.laser.does()
         self.claw.does()
         self.smartphone.does()
+
 
 my_robot = Robot(Laser(), Claw(), Smartphone())
 my_robot.does()
