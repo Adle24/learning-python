@@ -1,0 +1,28 @@
+List of virtual environments:
+- virtualenv
+- venv
+- pipenv
+- poetry
+- conda
+- uv
+
+Where to find Python Code:
+- github
+- PyPI
+- popular python recipes
+
+List of IDEs
+- Visual Studio Code
+- PyCharm
+- Notepad++
+- Neovim
+- Sublime Text
+- Cursor
+- Jupyter Notebook
+
+List of Source Control systems
+- Mercurial
+- Git
+- Bitbucket
+- Subversion
+
