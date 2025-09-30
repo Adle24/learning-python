@@ -5,4 +5,5 @@ def pointless(param: dict[str, int]) -> None:
 
     print(key, value)
 
-pointless({'key': 1})
+
+pointless({"key": 1})
