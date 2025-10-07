@@ -8,4 +8,5 @@ dependencies = [
     "gevent>=25.9.1",
     "invoke>=2.2.0",
     "pytest>=8.4.2",
+    "pyzmq>=27.1.0",
 ]
