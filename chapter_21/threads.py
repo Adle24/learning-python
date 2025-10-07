@@ -4,6 +4,7 @@ import threading
 def do_this(what):
     whoami(what)
 
+
 def whoami(what):
     print(f"thread {threading.current_thread()} says {what}")
 

@@ -8,8 +8,7 @@ def wait_time():
     print(time.asctime(time.localtime()))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     for i in range(3):
         proc = multiprocessing.Process(target=wait_time)
         proc.start()
-

@@ -1,6 +1,7 @@
 from invoke import task
 import time
 
+
 @task
 def mytime(ctx):
     now = time.time()
